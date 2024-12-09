@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tienda en Línea</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda en Línea</h1>
+        <img src="t.jpg" width="150"
+  height="200" align="left" style="position:absolute; top:0; left:0;" />
+    </header>
+    
+    <main
+        <section class="productos">
+            <h1 style="position:absolute; top:10; left:195px; ">  Productos Disponibles</h1>
+            <div style="position:absolute; top:190px; left:100px; " class="producto" id="producto1">
+                <h3>Artículo 1</h3>
+                 <img src="a.jpg" width="150"
+                <p>Descripción del artículo 1.</p>
+                <p>Precio: $1000.00</p>
+                <button onclick="agregarAlCarrito('Artículo 1', 10)">Agregar al Carrito</button>
+            </div>
+            <div style="position:absolute; top:190px; left:500px; " class="producto" id="producto2">
+                <h3>Artículo 2</h3>
+                 <img src="d.jpg" width="150"
+                <p>Descripción del artículo 2.</9>
+                <p>Precio: $1500.00</p>
+                <button onclick="agregarAlCarrito('Artículo 2', 15)">Agregar al Carrito</button>
+            </div>
+            <div style="position:absolute; top:190px; left:900px; " class="producto" id1="producto2">
+                <h3>Artículo 3</h3>
+                 <img src="s.jpg" width="150"
+                <p>Descripción del artículo 2.</p>
+                <p>Precio: $1500.00</p>
+                <button onclick="agregarAlCarrito('Artículo 2', 15)">Agregar al Carrito</button>
+            </div>
+
+            <!-- Agrega más productos según sea necesario -->
+        </section>
+
+        <section style="position:absolute; top:190px; left:1250px; " class="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="listaCarrito"></ul>
+            <p id="total">Total: $0.00</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda en Línea</p>
+        
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+    <div  class="bg-white p-4 rounded-full shadow-lg">
+        <i class="fab fa-instagram text-4xl"></i>
+    </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
